@@ -73,6 +73,7 @@ void Cube_draw()
 	int g = 55;
 	pt = &g;
 	(*pt)++;
+#define m 1
 
 	glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
