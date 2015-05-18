@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenGLESApp1", "OpenGLESApp1", "{CAF495B6-BCEE-4201-AE43-69DA2D0C8D3E}"
+EndProject
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "OpenGLESApp1.Android.Packaging", "OpenGLESApp1\OpenGLESApp1.Android.Packaging\OpenGLESApp1.Android.Packaging.androidproj", "{BB85AC21-966A-4759-B206-F646295B8E03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{BDF14224-679F-49AE-972C-C2779EC17380}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.Shared", "OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems", "{8ED2F580-03F1-427B-A973-B6F54A5CD861}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.Android.NativeActivity", "OpenGLESApp1\OpenGLESApp1.Android.NativeActivity\OpenGLESApp1.Android.NativeActivity.vcxproj", "{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems*{5fa9fc6e-1226-42ee-856b-fc53e9c828c8}*SharedItemsImports = 4
+		OpenGLESApp1\OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems*{8ed2f580-03f1-427b-a973-b6f54a5cd861}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|ARM.Build.0 = Debug|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|x86.ActiveCfg = Debug|x86
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|x86.Build.0 = Debug|x86
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Debug|x86.Deploy.0 = Debug|x86
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|ARM.ActiveCfg = Release|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|ARM.Build.0 = Release|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|ARM.Deploy.0 = Release|ARM
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|x86.ActiveCfg = Release|x86
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|x86.Build.0 = Release|x86
+		{BB85AC21-966A-4759-B206-F646295B8E03}.Release|x86.Deploy.0 = Release|x86
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Debug|ARM.Build.0 = Debug|ARM
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Debug|x86.ActiveCfg = Debug|x86
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Debug|x86.Build.0 = Debug|x86
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Release|ARM.ActiveCfg = Release|ARM
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Release|ARM.Build.0 = Release|ARM
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Release|x86.ActiveCfg = Release|x86
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB85AC21-966A-4759-B206-F646295B8E03} = {CAF495B6-BCEE-4201-AE43-69DA2D0C8D3E}
+		{BDF14224-679F-49AE-972C-C2779EC17380} = {CAF495B6-BCEE-4201-AE43-69DA2D0C8D3E}
+		{8ED2F580-03F1-427B-A973-B6F54A5CD861} = {BDF14224-679F-49AE-972C-C2779EC17380}
+		{5FA9FC6E-1226-42EE-856B-FC53E9C828C8} = {BDF14224-679F-49AE-972C-C2779EC17380}
+	EndGlobalSection
+EndGlobal
